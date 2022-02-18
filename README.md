@@ -1,9 +1,6 @@
 # Wildfire
 Planning path using Hybrid A* and PRM to extinguish fire in a wildfire senario.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
-
-
 # Environment
 The environment consists of a flat square field, 250 meters on a side, filled with obstacles. The obstacles consist of large patches of un-navigable thick brush, trees, and weeds, suspiciously shaped like giant tetrominoes. While the environment is not specifically a grid, the base dimension for each obstacle square unit is 15 meters. Inside this field, a firetruck operates, attempting to extinguish fires that emerge.
 Starting at time 0 and at 60 second intervals, an arsonist/wumpus sets a major conflagration at a random obstacle. This sets the obstacle state to burning. After 20 seconds in this state, the obstacle sets all obstacles within a 30 meter radius to the state of burning. Run the simulation for 3600 seconds.
